@@ -21,7 +21,7 @@
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
@@ -34,11 +34,13 @@
 .header__subtitle {
   font-size: 18px;
   line-height: 25px;
+  font-weight: normal;
   width: 388px;
   position: absolute;
   bottom: 30px;
   left: 64px;
   z-index: 2;
+  margin: 0;
 }
 
 .header__link {
@@ -82,13 +84,13 @@
 .description {
   display: flex;
   justify-content: center;
-  margin: 100px 0;
 }
 
 .two-columns {
   width: 80%;
   display: flex;
   justify-content: space-between;
+  padding: 100px 0;
 }
 
 .two-columns__brief {
@@ -152,6 +154,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
+  list-style: none;
+  padding: 0;
 }
 
 .table__cell {
@@ -204,7 +208,7 @@
   text-decoration: none;
   color: #2f80ed;
   position: absolute;
-  top: 50vh;
+  top: 50%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
@@ -257,15 +261,14 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin: 0 0 20px 0;
+  margin: 0;
 }
 
 .table__text_theme_dark {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
 }
 
 .kaufman__triangle {
@@ -305,11 +308,15 @@
 }
 
 .footer__column_content_info {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .footer__column_content_social {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .logo_place_footer {
