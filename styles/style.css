@@ -14,8 +14,9 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  display: flex;
   background-color: #f2f2f2;
+  display: flex;
+  position: relative;
 }
 
 .header__title {
@@ -64,14 +65,6 @@
   z-index: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .logo {
   width: 183px;
   height: 32px;
@@ -81,10 +74,58 @@
 /* модификатор place с ключом header */
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg);
-  background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   top: 30px;
   left: 64px;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.two-columns__paragraph:nth-of-type(2) {
+  margin: 30px 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
