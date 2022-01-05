@@ -1,0 +1,5 @@
+.footer__column-navigation {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 16px 0;
+}
