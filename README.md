@@ -1,6 +1,10 @@
 # Учебный проект "Научиться учиться"
 ![HTML5](https://img.shields.io/badge/HTML-HTML5-red?logo=HTML5&style=flat)
 ![CSS3](https://img.shields.io/badge/CSS-CSS3-green?logo=CSS3&style=flat)
+
+Ознакомиться с проектом можно здесь: [https://dbkai.github.io/how-to-learn/](https://dbkai.github.io/how-to-learn/)
+
+Бриф на разработку здесь: [Sprint-1-brief](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf), [Sprint-2-brief](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf)
 ## Описание проекта
 Проект типового одностраничного сайта, разработанного в рамках курса Web-разработчик от Яндекс.Практикум.
 ## Цель проекта
